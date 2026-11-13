@@ -1,0 +1,19 @@
+{
+  "name": "star-astrology-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UPI QR + screenshot payment backend and admin dashboard for the Star Astrology website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^4.22.3",
+    "express-rate-limit": "^8.7.3",
+    "helmet": "^8.3.0"
+  }
+}

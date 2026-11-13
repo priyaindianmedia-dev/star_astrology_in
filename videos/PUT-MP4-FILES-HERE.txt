@@ -1,0 +1,7 @@
+Add your vertical 9:16 MP4 files here with these exact names:
+reel-1.mp4
+reel-2.mp4
+reel-3.mp4
+
+Tips: H.264 video, AAC audio, 720x1280 (or 1080x1920), under 8 MB each, 10-30 seconds.
+Until the files exist, the cards show the thumbnail with a "Video coming soon" label.

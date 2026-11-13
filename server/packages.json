@@ -1,0 +1,58 @@
+{
+  "_readme": "Prices are in rupees and are enforced on the SERVER. 'confirmed': false means the price is a TEST PLACEHOLDER: it is payable in Test Mode only and is automatically blocked in Live Mode. Set your real price and change confirmed to true before going live. 'extras' are the fixed-price items paid outside the booking form (Kundli Making, the Rs 199 and Rs 299 offers). Their prices are the ones already shown on the website.",
+  "packages": [
+    {
+      "n": "Personal Consultation",
+      "d": "30 min",
+      "price": 100,
+      "confirmed": false
+    },
+    {
+      "n": "Kundli Reading",
+      "d": "45 min",
+      "price": 200,
+      "confirmed": false
+    },
+    {
+      "n": "Detailed Birth Chart Analysis",
+      "d": "60 min",
+      "price": 300,
+      "confirmed": false
+    }
+  ],
+  "slots": [
+    "10:00 AM",
+    "11:00 AM",
+    "12:00 PM",
+    "4:00 PM",
+    "5:00 PM",
+    "6:00 PM"
+  ],
+  "extras": [
+    {
+      "key": "chat-149",
+      "n": "First Chat with Astrologer",
+      "price": 149,
+      "confirmed": true
+    },
+    {
+      "key": "kundli-making",
+      "n": "Kundli Making",
+      "price": 999,
+      "confirmed": true,
+      "needsBirth": true
+    },
+    {
+      "key": "offer-199",
+      "n": "Kundli Consultation Offer",
+      "price": 199,
+      "confirmed": true
+    },
+    {
+      "key": "offer-299",
+      "n": "Kundli or Palm Reading Offer",
+      "price": 299,
+      "confirmed": true
+    }
+  ]
+}
